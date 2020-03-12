@@ -2,7 +2,7 @@
 
 A feature engineering approach to solving the ICLR remote sensing challenge. The scripts are all based on the start notebook available [here](https://github.com/sentinel-hub/cv4a-iclr-2020-starter-notebooks). These notebooks have been modified to implement various vegetation indices and other remote sensing indices available on [this page](https://github.com/sentinel-hub/custom-scripts#sentinel-2).
 
-Currently, this repo is not implemented as a pip installable. Outside of more standard statistical/preprocessing packages and built-in, it also depends on `tifffile`, `tqdm`, and `eolearn`.
+Currently, this repo is not implemented as a pip installable. Outside of more standard statistical/preprocessing packages and built-ins, it also depends on `tifffile`, `tqdm`, and `eolearn`.
 
 ## Usage
 
@@ -28,11 +28,11 @@ The base notebook uses NDVI. This index is used for vegetation detection but man
 * Nonlinear vegetation index (NVI)
 * Renormalized difference vegetation index (RDVI)
 
-Many of these indices correct for issues with NDVI which suffers in certain frequency ranges. `ARVI` corrects for aerosal levels in the atmosphere which results in light scattering effects. It appears that this may be a problem with some regions in Ethopia looking at a heat map for aerosal levels in the area but it is unclear if this index is really necessary.
+Many of these indices correct for issues with NDVI which suffers in certain frequency ranges. `ARVI` corrects for aerosol levels in the atmosphere which results in light scattering effects. It appears that this may be a problem with some regions in Ethopia looking at a heat map for aerosal levels in the area but it is unclear if this index is really necessary.
 
 Additionally, the following infrared indices:
 * False color infrared (FCI)
-* Ingrared agriculture display (IGD)
+* Infrared agriculture display (IGD)
 
 A few other miscellaneous transforms used in some remote sensing work for crop detection:
 * Barren soil index (BSI)

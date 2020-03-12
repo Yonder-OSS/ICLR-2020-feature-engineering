@@ -1,5 +1,5 @@
 """
-Creates all EOPatches for images. Based on: https://github.com/sentinel-hub/cv4a-iclr-2020-starter-notebooks/blob/master/cv4a-process-and-train.ipynb
+Preprocessing, feature engineering, and classification with random forests. Based on: https://github.com/sentinel-hub/cv4a-iclr-2020-starter-notebooks/blob/master/cv4a-process-and-train.ipynb
 The major modifications are the addition of various indices calculated from the satellite bands.
 Some features produce a divide-by-zero error. This were dealt with by converting to 0 before passing to the model.
 """
