@@ -1,0 +1,9 @@
+*.meta
+*.json
+__pycache__/
+/eggs/
+/*-eggs/
+.eggs/
+/*.egg-info/
+*.egg
+/build/
